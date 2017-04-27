@@ -1,3 +1,9 @@
 <resources>
+    <!--底部导航栏-->
     <string name="app_name">KLCSJAndroid</string>
+    <string name="bottom_healthy">康</string>
+    <string name="bottom_happy">乐</string>
+    <string name="bottom_wealth">财</string>
+    <string name="bottom_food">食</string>
+    <string name="bottom_family">家</string>
 </resources>

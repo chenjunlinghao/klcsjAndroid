@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_healthy"
+        android:icon="@drawable/bottom_healthy"
+        android:title="@string/bottom_healthy"/>
+    <item
+        android:id="@+id/bottom_happy"
+        android:icon="@drawable/bottom_happy"
+        android:title="@string/bottom_happy"/>
+    <item
+        android:id="@+id/bottom_wealth"
+        android:icon="@drawable/bottom_wealth"
+        android:title="@string/bottom_wealth"/>
+    <item
+        android:id="@+id/bottom_food"
+        android:icon="@drawable/bottom_food"
+        android:title="@string/bottom_food"/>
+    <item
+        android:id="@+id/bottom_family"
+        android:icon="@drawable/bottom_family"
+        android:title="@string/bottom_family"/>
+</menu>
