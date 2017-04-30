@@ -13,11 +13,11 @@ import com.chenjl.klcsj.klcsjandroid.R;
  * Created by Administrator on 2017/4/27.
  */
 
-public class HealthyFragment extends Fragment {
+public class FamilyFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.healthy_fragment_layout,null);
+        View view = inflater.inflate(R.layout.family_fragment_layout,null);
         return view;
     }
 }
