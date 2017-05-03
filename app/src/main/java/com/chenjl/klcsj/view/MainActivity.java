@@ -23,11 +23,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-//    @BindView(R.id.home_viewPager)
-//    ViewPager viewPager;
-//    @BindView(R.id.bottom_navigation)
-//    BottomNavigationView bottomNavigationView;
-
     private HomeViewPagerAdapter viewPagerAdapter;
     private List<Fragment> fragments = new ArrayList<Fragment>();
     private ViewPager viewPager;

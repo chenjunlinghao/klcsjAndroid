@@ -6,4 +6,8 @@
     <string name="bottom_wealth">财</string>
     <string name="bottom_food">食</string>
     <string name="bottom_family">家</string>
+
+    <!--高德地图相关字符串-->
+    <string name="test_map_button">打开地图</string>
+
 </resources>
