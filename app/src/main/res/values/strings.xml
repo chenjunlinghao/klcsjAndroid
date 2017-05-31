@@ -10,4 +10,7 @@
     <!--高德地图相关字符串-->
     <string name="test_map_button">打开地图</string>
 
+    <!--"食"相关字符串-->
+    <string name="daily_meals">每日食谱</string>
+
 </resources>

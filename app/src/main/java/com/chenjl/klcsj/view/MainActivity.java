@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.addFragment(new FamilyFragment());
 
         viewPager.setAdapter(viewPagerAdapter);
-        viewPager.setCurrentItem(0);    //默认显示“康（健康）”页面
+//        viewPager.setCurrentItem(0);    //默认显示“康（健康）”页面
 
         /**********关联fragment到底部导航栏**********/
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                         viewPager.setCurrentItem(4);
                         break;
                 }
-                return false;
+                return true;
             }
         });
 
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                return true;
+                return false;
             }
         });
     }
