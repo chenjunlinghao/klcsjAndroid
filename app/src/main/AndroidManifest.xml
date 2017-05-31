@@ -15,6 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.chenjl.klcsj.view.activity.fo.dailyMeals.DailyMealsActivity"></activity>
     </application>
 
 </manifest>
